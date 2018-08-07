@@ -1,5 +1,7 @@
 # MGAlertSwift
-![](https://img.shields.io/cocoapods/v/MGAlertSwift.svg?style=flat)  
+![](https://img.shields.io/cocoapods/v/MGAlertSwift.svg?style=flat) 
+![](https://img.shields.io/badge/platform-ios-lightgrey.svg) 
+![](https://img.shields.io/badge/language-swift-orange.svg)  
 
 封裝使用Alert  
 
