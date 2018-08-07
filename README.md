@@ -1,6 +1,10 @@
 # MGAlertSwift
-A free style alert
+![](https://img.shields.io/cocoapods/v/MGAlertSwift.svg?style=flat)  
 
-使用方式:
+封裝使用Alert  
 
-pod 'MGAlertSwift', '~> 0.0.1'
+版本更迭:  
+0.0.1 - 初始專案提交
+
+使用方式:  
+pod 'MGAlertSwift', '~> {version}'
