@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		961F34B522D3CE9EDECC9B34 /* Pods_MGAlertSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF9AD544AA17E226300837C /* Pods_MGAlertSwift.framework */; };
+		B823926F2161139B00B5F753 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B823926E2161139B00B5F753 /* README.md */; };
+		B8239271216113A300B5F753 /* MGAlertSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B8239270216113A300B5F753 /* MGAlertSwift.podspec */; };
 		B8776DC4207F0FF400CC8442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8776DC3207F0FF400CC8442 /* AppDelegate.swift */; };
 		B8776DC6207F0FF400CC8442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8776DC5207F0FF400CC8442 /* ViewController.swift */; };
 		B8776DC9207F0FF400CC8442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8776DC7207F0FF400CC8442 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 		04FC8950395ECF49B4CD8FF0 /* Pods-MGAlertSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGAlertSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGAlertSwift/Pods-MGAlertSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		3DAE486B7CBB5D878BE74FC2 /* Pods-MGAlertSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGAlertSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGAlertSwift/Pods-MGAlertSwift.release.xcconfig"; sourceTree = "<group>"; };
 		8BF9AD544AA17E226300837C /* Pods_MGAlertSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGAlertSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B823926E2161139B00B5F753 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		B8239270216113A300B5F753 /* MGAlertSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MGAlertSwift.podspec; path = ../../MGAlertSwift.podspec; sourceTree = "<group>"; };
 		B8776DC0207F0FF400CC8442 /* MGAlertSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGAlertSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8776DC3207F0FF400CC8442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8776DC5207F0FF400CC8442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				B8776DCA207F0FF400CC8442 /* Assets.xcassets */,
 				B8776DCC207F0FF400CC8442 /* LaunchScreen.storyboard */,
 				B8776DCF207F0FF400CC8442 /* Info.plist */,
+				B823926E2161139B00B5F753 /* README.md */,
+				B8239270216113A300B5F753 /* MGAlertSwift.podspec */,
 				B8776DD5207F100200CC8442 /* Classes */,
 			);
 			path = MGAlertSwift;
@@ -111,7 +117,6 @@
 				B8776DBD207F0FF400CC8442 /* Frameworks */,
 				B8776DBE207F0FF400CC8442 /* Resources */,
 				FDCB010B490F935D3713A9E3 /* [CP] Embed Pods Frameworks */,
-				417723E51FF98502AC72AE50 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +168,8 @@
 			files = (
 				B8776DCE207F0FF400CC8442 /* LaunchScreen.storyboard in Resources */,
 				B8776DCB207F0FF400CC8442 /* Assets.xcassets in Resources */,
+				B823926F2161139B00B5F753 /* README.md in Resources */,
+				B8239271216113A300B5F753 /* MGAlertSwift.podspec in Resources */,
 				B8776DC9207F0FF400CC8442 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,21 +195,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		417723E51FF98502AC72AE50 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MGAlertSwift/Pods-MGAlertSwift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FDCB010B490F935D3713A9E3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,25 +202,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MGAlertSwift/Pods-MGAlertSwift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CLImagePickerTool/CLImagePickerTool.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MGBaseViewSwift/MGBaseViewSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MGExtensionSwift/MGExtensionSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/MGUtilsSwift/MGUtilsSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLImagePickerTool.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGBaseViewSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGExtensionSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGUtilsSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -388,7 +368,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicalwater.MGAlertSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -404,7 +384,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicalwater.MGAlertSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import MGUtilsSwift
+//import MGUtilsSwift
 import MGExtensionSwift
 import MGBaseViewSwift
 
@@ -139,7 +139,7 @@ public class MGAlertManager {
             }
         } else {
             bgView?.alpha = 1
-            window.bringSubview(toFront: bgView!)
+            window.bringSubviewToFront(bgView!)
         }
 
         //加入contentview, 並且動畫出現
@@ -192,7 +192,7 @@ public class MGAlertManager {
         } else {
 //            let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate
             let window = UIApplication.shared.keyWindow!
-            window.bringSubview(toFront: alertChain.last!.view)
+            window.bringSubviewToFront(alertChain.last!.view)
         }
     }
 
@@ -230,7 +230,7 @@ public class MGAlertManager {
             if ac.type == type {
 //                let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate
                 let window = UIApplication.shared.keyWindow!
-                window.bringSubview(toFront: ac.view)
+                window.bringSubviewToFront(ac.view)
                 alertChain.moveToLast(i)
                 break
             }
@@ -276,7 +276,7 @@ extension MGAlertManager : MGAlertDelegate {
         //隱藏所有相關
         for am in alertChain {
             hide(am)
-            MGThreadUtils.inMain(delay: 0.2) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
                 self.alertHandler[am.type]?(btn, obj)
             }
         }
@@ -285,7 +285,7 @@ extension MGAlertManager : MGAlertDelegate {
 
 //需要給準備顯示alert的view所繼承的委託
 public protocol MGAlertViewDelegate {
-    weak var alertDelegate: MGAlertDelegate? { get set }
+    var alertDelegate: MGAlertDelegate? { get set }
 }
 
 public protocol MGAlertDelegate: class {

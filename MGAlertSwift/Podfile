@@ -6,7 +6,6 @@ target 'MGAlertSwift' do
   use_frameworks!
 
   # Pods for MGAlertSwift
-  pod 'MGUtilsSwift'
   pod 'MGExtensionSwift'
   pod 'MGBaseViewSwift'
 

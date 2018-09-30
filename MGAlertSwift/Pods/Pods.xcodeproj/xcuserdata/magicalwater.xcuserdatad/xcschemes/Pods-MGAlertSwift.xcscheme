@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B5C8F345816651EE8137F5ED3A976354"
+               BlueprintIdentifier = "57455DB0BF94805C1D88A323DB1C03ED"
                BuildableName = "Pods_MGAlertSwift.framework"
                BlueprintName = "Pods-MGAlertSwift"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B5C8F345816651EE8137F5ED3A976354"
+            BlueprintIdentifier = "57455DB0BF94805C1D88A323DB1C03ED"
             BuildableName = "Pods_MGAlertSwift.framework"
             BlueprintName = "Pods-MGAlertSwift"
             ReferencedContainer = "container:Pods.xcodeproj">
